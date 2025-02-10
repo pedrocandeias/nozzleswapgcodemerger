@@ -20,7 +20,7 @@ This repository contains a Python script designed to merge two G-code files, all
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/merge-gcode-nozzle-swap.git
+   git clone https://github.com/pedrocandeias/merge-gcode-nozzle-swap.git
    cd merge-gcode-nozzle-swap
    ```
 
@@ -34,7 +34,7 @@ This repository contains a Python script designed to merge two G-code files, all
 ### Basic Command
 
 ```bash
-python3 merge_gcode.py <0.4mm_gcode_file> <0.25mm_gcode_file> <output_file> [--transition <layer_number>] [--reheat_temp <temperature>]
+python3 merge_gcode_nozzle_swap.py <0.4mm_gcode_file> <0.25mm_gcode_file> <output_file> [--transition <layer_number>] [--reheat_temp <temperature>]
 ```
 
 ### Example Commands
@@ -85,6 +85,11 @@ Feel free to fork this repository and submit pull requests with improvements or 
 
 This project is licensed under the MIT License.
 
+## Author
+
+Pedro Candeias
+
 ---
 
 Happy Printing! 🛠️💃
+
